@@ -1,0 +1,8 @@
+.settings
+*.jar
+*.class
+/target/
+/.classpath
+/.project
+/log
+/logs/*.gz
