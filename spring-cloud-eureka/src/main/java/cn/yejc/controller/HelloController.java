@@ -16,6 +16,6 @@ public class HelloController {
 	public String index() {
 		ServiceInstance instance = client.getLocalServiceInstance();
 		System.out.println("/hello,host:"+instance.getHost()+",service_id:"+instance.getServiceId());
-		return "hello";
+		return "hello";//
 	}
 }
