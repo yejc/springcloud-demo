@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-cloud-eureka
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: yejc001
+Implementation-Vendor-Id: cn.yejc
+Build-Jdk: 1.8.0_171
+Implementation-URL: http://projects.spring.io/spring-boot/springcloud-
+ demo/spring-cloud-eureka/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
