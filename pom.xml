@@ -11,59 +11,6 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.5.10.RELEASE</version>
 	</parent>
-	
-	<!-- (you don't need this if you are using a .RELEASE version) -->
-	<repositories>
-		<repository>
-			<id>cmft</id>
-			<url>http://nexus.cmrh.com:8084/nexus/content/repositories/thirdparty/</url>
-		</repository>
-		<repository>
-			<id>aliyun-proxy</id>
-			<url>http://nexus.dev.cmrh.com:8081/nexus/content/repositories/aliyun-proxy/</url>
-		</repository>
-		<repository>
-			<id>spring-snapshots</id>
-			<url>http://repo.spring.io/snapshot</url>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-		<repository>
-			<id>spring-milestones</id>
-			<url>http://repo.spring.io/milestone</url>
-		</repository>
-		<repository>
-			<id>cmhk.mirror</id>
-			<name>cmhk mirror.</name>
-			<url>http://nexus.cmrh.com:8084/nexus/content/repositories/thirdparty/</url>
-		</repository>
-
-		<repository>
-			<id>nexus-cmft</id>
-			<name>cmft repository</name>
-			<url>http://nexus.dev.cmrh.com:8081/nexus/content/groups/proxy-group/</url>
-		</repository>
-		<repository>
-			<id>cloudera</id>
-			<url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
-		</repository>
-	</repositories>
-	<pluginRepositories>
-		<pluginRepository>
-			<id>aliyun-proxy</id>
-			<url>http://nexus.dev.cmrh.com:8081/nexus/content/repositories/aliyun-proxy/</url>
-		</pluginRepository>
-		<pluginRepository>
-			<id>spring-snapshots</id>
-			<url>http://repo.spring.io/snapshot</url>
-		</pluginRepository>
-		<pluginRepository>
-			<id>spring-milestones</id>
-			<url>http://repo.spring.io/milestone</url>
-		</pluginRepository>
-
-	</pluginRepositories>
 	<modules>
 		<module>eureka-server</module>
 		<module>spring-cloud-eureka</module>
